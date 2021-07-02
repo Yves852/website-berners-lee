@@ -55,6 +55,10 @@ nav {
     padding-bottom: 40px;
 }
 
+nav>ul {
+    padding: 0px;
+}
+
 nav>ul>li {
     list-style: none;
     display: inline-block;   
@@ -101,3 +105,41 @@ h1 {
 
 
 /* Responsive */
+
+@media only screen and (max-width: 800px) {
+    header, nav, section {
+        width: 100%;        
+    }
+
+    nav>ul>li {
+        display: block;  
+        margin-left: auto;
+        margin-right: auto; 
+        width: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size:xx-large;
+    }
+
+    .fab {
+        font-size: xx-large;
+    }
+
+    button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 80%;
+    }
+
+    img {
+        width: 60%;
+        height: auto;
+    }
+
+    .articleImg {
+        float: none;   
+        display: block;    
+        margin-left: auto;
+        margin-right: auto; 
+    }
+}
