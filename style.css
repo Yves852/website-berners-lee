@@ -27,6 +27,10 @@ header>p {
     margin: 15px;
 }
 
+header>h2 {
+    font-weight: bolder;
+}
+
 article {
     display: inline-block;
 }
@@ -47,6 +51,11 @@ nav>ul>li>a {
     color: #cccccc;
     margin-left: 20px;
     margin-right: 20px;
+    /* font-size: medium; */
+}
+
+.h2Hightlight {
+    background-color: #d4d4d4;
 }
 
 i {
@@ -66,7 +75,8 @@ h1 {
 }
 
 .headerImg {
-    background-color: #cccccc;
+    border-radius: 50%;
+    border: 4px solid #cccccc;
 }
 
 .articleImg {
